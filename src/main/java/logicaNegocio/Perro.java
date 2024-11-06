@@ -1,5 +1,21 @@
 package logicaNegocio;
 
 public class Perro {
-    // TODO: Aquí va tu código
+class Perro extends Animal implements Domestico {
+    public Perro() {
+        this.habitat = TipoHabitat.TERRESTRE;
+    }
+ 
+    public String emitirSonido() {
+        return "Ladrido";
+    }
+ 
+    public String obtenerDieta() {
+        return "Omnívoro";
+    }
+ 
+    public String interactuarConHumano() {
+        return "El perro mueve la cola y ladra de felicidad";
+    }
+}
 }
