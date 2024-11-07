@@ -9,7 +9,8 @@ public abstract class AnimalTest {
 
     @Test
     void testHabitatSetterAndGetter() {
-        Animal leon = new Leon();
+        Animal leon;
+        leon = new Leon();
         assertEquals(TipoHabitat.TERRESTRE, leon.getHabitat());
         
         Animal delfin = new Delfin();

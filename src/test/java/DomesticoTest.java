@@ -7,7 +7,7 @@ public class DomesticoTest {
 
     @Test
     void testInteraccionConHumano() {
-        Domestico perro = new Perro();
+        Domestico perro = (Domestico) new Perro(null);
         assertEquals("El perro mueve la cola y ladra de felicidad", perro.interactuarConHumano());
     }
 }

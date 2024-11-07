@@ -5,6 +5,7 @@ class Leon extends Animal {
         this.habitat = TipoHabitat.TERRESTRE;
     }
  
+    @Override
     public String emitirSonido() {
         return "Rugido";
     }
