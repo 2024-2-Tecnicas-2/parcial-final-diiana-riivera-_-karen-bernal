@@ -16,7 +16,7 @@ public class AnimalHerenciaTest {
 
     @Test
     void testDelfinIsAnimal() {
-        Animal delfin;
+       Animal delfin;
         delfin = new Delfin();
         assertTrue(delfin instanceof Animal);
     }

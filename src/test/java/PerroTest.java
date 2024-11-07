@@ -17,7 +17,7 @@ public class PerroTest extends AnimalTest {
     @Override
     @Test
     void testObtenerDieta() {
-        Animal perro = new Perro(null);
+        Perro perro = new Perro(null);
         assertEquals("Omnívoro", perro.obtenerDieta());
     }
 
