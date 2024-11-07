@@ -1,4 +1,4 @@
-package logicaNegocio;
+package ParcialFinal2;
 
 public interface Domestico {
    

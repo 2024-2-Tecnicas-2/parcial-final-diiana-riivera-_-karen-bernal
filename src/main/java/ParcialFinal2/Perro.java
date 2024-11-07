@@ -1,4 +1,4 @@
-package logicaNegocio;
+package ParcialFinal2;
 
 public class Perro {
 class Perro extends Animal implements Domestico {
