@@ -1,16 +1,18 @@
 package ParcialFinal2;
+public class Leon extends Animal{
 
-class Leon extends Animal {
-    public Leon() {
-        this.habitat = TipoHabitat.TERRESTRE;
+    public Leon(TipoHabitat habitat) {
+        super(habitat);
     }
- 
+
     @Override
     public String emitirSonido() {
-        return "Rugido";
+       return "Rugido";
     }
- 
+
+    @Override
     public String obtenerDieta() {
         return "Carnívoro";
     }
+    
 }

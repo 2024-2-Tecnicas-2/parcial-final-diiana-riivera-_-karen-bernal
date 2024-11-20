@@ -1,11 +1,25 @@
 package ParcialFinal2;
-
 public abstract class Animal {
 
-        protected TipoHabitat habitat;
+    public TipoHabitat habitat;
 
-        public abstract String emitirSonido();
+    public Animal() {
+    }
 
-        public abstract String obtenerDieta();
+    public Animal(TipoHabitat habitat) {
+        this.habitat = habitat;
+    }
+
+    public abstract String emitirSonido();
+
+    public abstract String obtenerDieta();
+
+    public TipoHabitat getHabitat() {
+        return habitat;
+    }
+
+    public void setHabitat(TipoHabitat habitat) {
+        this.habitat = habitat;
+    }
+
 }
-

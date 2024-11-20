@@ -9,22 +9,20 @@ import static org.junit.jupiter.api.Assertions.*;
 public class AnimalHerenciaTest {
     @Test
     void testLeonIsAnimal() {
-        Animal leon;
-        leon = new Leon();
+        Animal leon = new Leon(TipoHabitat.TERRESTRE);
         assertTrue(leon instanceof Animal);
     }
 
     @Test
     void testDelfinIsAnimal() {
-       Animal delfin;
-        delfin = new Delfin();
+        Animal delfin = new Delfin(TipoHabitat.ACUATICO);
         assertTrue(delfin instanceof Animal);
     }
 
     @Test
     void testPerroIsAnimalAndDomestico() {
-        Animal perro = new Perro(null);
+        Animal perro = new Perro(TipoHabitat.TERRESTRE);
         assertTrue(perro instanceof Animal);
         assertTrue(perro instanceof Domestico);
     }
-}
+    
