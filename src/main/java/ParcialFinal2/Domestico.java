@@ -1,6 +1,5 @@
-package ParcialFinal2;
+package logicaNegocio;
 
 public interface Domestico {
-   
-    String interactuarConHumano();
+        String interactuarConHumano();     
 }

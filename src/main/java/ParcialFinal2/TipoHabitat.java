@@ -1,6 +1,5 @@
-package ParcialFinal2;
+package logicaNegocio;
 
 public enum TipoHabitat {
-    ACUATICO, TERRESTRE, AEREO;
-    
+    ACUATICO, TERRESTRE, AEREO
 }

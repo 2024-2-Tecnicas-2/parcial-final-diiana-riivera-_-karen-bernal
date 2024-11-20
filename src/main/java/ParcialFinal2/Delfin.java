@@ -1,6 +1,6 @@
-package ParcialFinal2;
-public class Delfin  extends Animal{
+package logicaNegocio;
 
+public class Delfin  extends Animal{
     public Delfin(TipoHabitat habitat) {
         super(habitat);
     }
